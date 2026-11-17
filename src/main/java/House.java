@@ -14,8 +14,8 @@ public class House extends Asset {
         this.squareFoot = squareFoot;
         this.lotSize = lotSize;
     }
-    public void getValue() {
-
+    public BigDecimal getValue() {
+        return getValue();
     }
 
     public String getAddress() {

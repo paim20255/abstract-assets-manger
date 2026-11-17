@@ -1,6 +1,7 @@
-public class House extends Asset {
+import java.math.BigDecimal;
 
-    public House(String description, String dateAcquired) {
-        super(description, dateAcquired);
+public class House extends Asset {
+    public House(String description, String dateAcquired, BigDecimal originalCost) {
+        super(description, dateAcquired, originalCost);
     }
 }

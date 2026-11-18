@@ -12,6 +12,8 @@ public class Main {
         House house = new House("Studio", "2021-01-01", 500_000, "200 Ozone Park", 3, 500, 0);
         assets.add(house);
 
+       // Asset a = new Vehicle();
+
 
         BigDecimal netWorth = BigDecimal.ZERO;
         BigDecimal vehicleTotal = BigDecimal.ZERO;
